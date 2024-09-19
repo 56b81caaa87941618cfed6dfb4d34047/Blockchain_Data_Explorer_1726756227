@@ -86,6 +86,15 @@ INSTRUCTION: Summary: The header component is a nav bar on top of the page -- it
                             </a>
                         </li>
                     </ul>
+                    </ul>
+                </div>
+                <div class="flex-1 flex justify-end items-center">
+                    <button
+                        id="hello-world-button"
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    >
+                        Hello World
+                    </button>
                 </div>
             </div>
         </nav>
@@ -99,6 +108,14 @@ export default {
             expanded: false,
             tab: null
         };
+    },
+    methods: {
+        // Hello World button method
+        sayHelloWorld() {
+            console.log("Hello World!");
+        }
+        // End of Hello World button method
     }
+};
 };
 </script>
