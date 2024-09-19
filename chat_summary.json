@@ -1,5 +1,11 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What style or design do you envision for the 'Hello World' button?\", \"option1\": \"A simple rectangular button\", \"option2\": \"A rounded button with a shadow effect\"}, {\"question 2\": \"Where do you want the 'Hello World' button to be positioned in the app?\", \"option1\": \"Centered on the main page\", \"option2\": \"In the footer of the app\"}], \"input_token_count\": 293, \"output_token_count\": 98, \"time_taken\": \"0:00:02.231486\"}",
+        "timestamp": "19092024143227",
+        "message_id": "guest19092024143106"
+    },
+    {
         "role": "user",
         "content": "add a button that says hello world",
         "timestamp": "19092024143108",
