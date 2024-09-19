@@ -6,6 +6,12 @@
         "message_id": "guest19092024143106"
     },
     {
+        "role": "chat_acknowledge",
+        "content": "Certainly, I'll add a button that says hello world.",
+        "timestamp": "19092024143108",
+        "message_id": "guest19092024143106"
+    },
+    {
         "role": "makeinfinite",
         "content": "Can you describe the project a bit more?",
         "message_id": "project_init",
